@@ -6,7 +6,7 @@
 
 # An extensible UI for creating Metaplex Candy Machines
 
-This project is a local electron app which provides an interface and some extra conveniences for executing Solana smart contracts to create and manage Metaplex Candy Machine.
+This project is a local Electron app which provides an interface and some extra conveniences for executing Solana smart contracts to create and manage Metaplex Candy Machines.
 
 https://user-images.githubusercontent.com/28356568/135772190-7c387046-b9e6-4427-8099-fac81728e900.mp4
 
