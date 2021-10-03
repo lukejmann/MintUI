@@ -8,7 +8,8 @@
 
 This project is a local electron app which provides an interface and some extra conveniences for executing Solana smart contracts to create and manage Metaplex Candy Machine.
 
-https://raw.githubusercontent.com/lukejmann/InnerMindMedia/main/MintUIDemo.mp4
+https://user-images.githubusercontent.com/28356568/135772190-7c387046-b9e6-4427-8099-fac81728e900.mp4
+
 
 ## Installation
 
