@@ -29,7 +29,7 @@ MintUI uses cache files for each Candy Machine it creates and manages which are 
 
 ## Assets List
 
-Whereas [Metaplex's candy machine CLI](https://github.com/metaplex-foundation/metaplex/tree/master/js/packages/cli) crafts manifests files for the user, we decided against this approach because it limits the manifest files to matching a specific PNG+metadata composition. We originally wrote large chunks of this codebase to get around these restrictions in order to mint our [Portals](https://innermind.space) (Portals are GIFs and MP4s, which the Metaplex code does not support). Our hope is that the task of crafting the JSON metadata files is manageable by most creators, and this codebase can handle the more technically-intensive smart contract interactions.
+Whereas [Metaplex's candy machine CLI](https://github.com/metaplex-foundation/metaplex/tree/master/js/packages/cli) crafts manifest files for the user, we decided against this approach because it limits the manifest files to matching a specific PNG+metadata composition. We originally wrote large chunks of this codebase to get around these restrictions in order to mint our [Portals](https://innermind.space) (Portals are GIFs and MP4s, which the Metaplex code does not support). Our hope is that the task of crafting the JSON metadata files is manageable by most creators, and this codebase can handle the more technically-intensive smart contract interactions.
 
 During the Upload step, MintUI asks for an Asset Links JSON file. This file should be a JSON array with links to Metadata files. Here's an example with Portal Metadata links we used on `devnet` during development:
 
