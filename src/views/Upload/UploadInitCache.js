@@ -24,6 +24,7 @@ export default function UploadInitCache({ saveMachineState }) {
     }
 
     const craftFirstCache = () => {
+        console.log(cluster)
         return {
             cluster: cluster,
             pubKeyPath: pubKeyPath,
@@ -62,7 +63,9 @@ export default function UploadInitCache({ saveMachineState }) {
                                     name="cluster"
                                     autoComplete="cluster"
                                     className="shadow-sm focus:ring-blue-500 focus:border-blue-500 block w-full sm:text-sm border-gray-300 rounded-md"
-                                    onChange={(e) => { setCluster({ value: e.target.value }); }}
+                                    onChange={(e) => { 
+                                        setCluster(e.target.value);
+                                    }}
                                 >
                                     <option>devnet</option>
                                     <option>testnet</option>
